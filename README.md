@@ -4,6 +4,8 @@ The Amazing Prime team would like to create an algorithm that would tell them wh
 
 Once we completed our extract, transform and load of the movies data for the Amazing Prime Hackathon, Amazing Prime loved the dataset and wanted to keep the dataset updated on a daily basis.  We accomplished this by refactoring the previous code and creating an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables.  The data was sourced from Wikipedia movie data, Kaggle movie metadata and the MovieLens movie rating data and ultimately added to a PostgreSQL database for the Amazing Prime team to reference.
 
+![](Resources/Creating_Database.png)
+
 ![](Resources/movies_query.png)
 
 ![](Resources/ratings_query.png)
